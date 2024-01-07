@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "https://special-trout-977x779v445vf7q6g-5173.app.github.dev")
 @RestController
 @RequestMapping("/api/expenses")
 public class ExpenseController {
